@@ -16,7 +16,6 @@ const Home = () => {
         const randomSubset = shuffledData
           .slice(0, 4)
           .map((item) => ({ ...item }));
-
          
         setResult(randomSubset);
       } catch (error) {

@@ -33,7 +33,6 @@ const Header = () => {
         </button>
         <div
           className={`w-full ${isDropdownVisible ? "" : "hidden"}`}
-          id="navbar-hamburger"
         >
           <ul className="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
             <li>

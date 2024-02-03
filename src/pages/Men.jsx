@@ -12,8 +12,6 @@ const Men = () => {
       try {
         const res = await fetch(`https://fakestoreapi.com/products/category/${category}`)
         const data = await res.json();
-
-        console.log(data);
        
         setResult(data);
       } catch (error) {

@@ -14,8 +14,6 @@ const Women = () => {
         );
         const data = await res.json();
 
-        console.log(data);
-
         setResult(data);
       } catch (error) {
         console.error("Error fetching data:", error);
